@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServiceFEAppName": {
+            "value": "Saad-assignment-app-prod-FE"
+        },
+        "appServiceFEPlanName": {
+            "value": "Saad-assignment-asp-prod-FE"
+        },
+        "appServiceBEAppName": {
+            "value": "Saad-assignment-app-prod-BE"
+        },
+        "appServiceBEPlanName": { 
+            "value": "Saad-assignment-asp-prod-BE"},
+        "storageAccountName": {
+            "value": "saadstorageprod"}
+
+    }
+}
